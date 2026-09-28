@@ -36,7 +36,7 @@ def print_fancy(a, b, ab_multadd):
     print("*"*16)
     print("RESULTS:")
     print(f"first number: {a}")
-    print(f"first number: {b}")
+    print(f"second number: {b}")
     print(f"multadd result: {ab_multadd}")
     # print a row of 16 equal signs
     print("="*16)
