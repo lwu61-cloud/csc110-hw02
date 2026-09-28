@@ -22,7 +22,7 @@ def compute_multadd(a, b):
     n = a*b
     print(f"mult result: {n}")
     m = a+b
-    print(f"add result:{m}")
+    print(f"add result: {m}")
     return n/m
 
 # Task 3.1:
