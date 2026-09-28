@@ -19,7 +19,11 @@ def compute_multadd(a, b):
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    pass
+    n = a*b
+    print(f"mult result: {n}")
+    m = a+b
+    print(f"add result:{m}")
+    return n/m
 
 # Task 3.1:
 #  Complete the function "print_fancy" below:
@@ -30,7 +34,7 @@ def print_fancy(a, b, ab_multadd):
     pass
 
 def main ():
-    """To run the functions above."""
+    """To call the functions above."""
     # ADD a Docstring for this function
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
@@ -44,9 +48,9 @@ def main ():
     #  Add one line below to call multadd (note that it returns one value)
     #  the call should provide the arguments x, and y you obtained above;
     #  store the returned value in a variable called xy_multadd
-
-    # TODO: add your call instead of this line
-
+    
+    xy_multadd = compute_multadd(x, y) #invoke compute_multadd with x and y, and assign the output to a new variable
+    print(xy_multadd)
     # Task 3.2:
     #  Complete The line below to call print_fancy
     #  the call should provide the arguments x, y, and xy_multadd you obtained above;
