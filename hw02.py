@@ -1,9 +1,12 @@
+#  csc110-hw02
+#  Name: Lynn Wu
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     # ADD a Docstring for this function
     
-    """Read two inputs from the user."""
+    """Read and return two inputs x and y from the user."""
     
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
@@ -16,7 +19,7 @@ def read_two_ints():
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
-    """Calculate and print an operation on two variables a and b."""
+    """With the given parameters a and b, calculate and print results of two operations."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     n = a*b
@@ -28,7 +31,7 @@ def compute_multadd(a, b):
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-    """Print the inputs and the result of multadd in a fancy format."""
+    """Print the parameters a, b, and ab_multadd got from the function compute_multadd, in a fancy format."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     
@@ -43,7 +46,7 @@ def print_fancy(a, b, ab_multadd):
         
 
 def main ():
-    """Call the functions above."""
+    """Call and return the functions above."""
     # ADD a Docstring for this function
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
@@ -51,7 +54,7 @@ def main ():
     #  store the returned values into two variables: x and y
 
     x,y = read_two_ints() #use x and y to catcht the two values returned from the function read_two_ints
-    print(f"x = {x},y = {y}")
+    
 
     # Task 2.2:
     #  Add one line below to call multadd (note that it returns one value)
@@ -59,7 +62,7 @@ def main ():
     #  store the returned value in a variable called xy_multadd
     
     xy_multadd = compute_multadd(x, y) #invoke compute_multadd with x and y, and assign the output to a new variable
-    print(xy_multadd)
+    print()
     
     # Task 3.2:
     #  Complete The line below to call print_fancy
